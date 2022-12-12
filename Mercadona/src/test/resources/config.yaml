@@ -1,0 +1,2 @@
+pathClientes: src/test/java/dataTests/testClientes.json
+pathProductos: src/test/java/dataTests/testProductos.json

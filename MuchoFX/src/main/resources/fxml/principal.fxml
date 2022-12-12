@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="556.0" prefWidth="878.0" style="-fx-background-color: #e6e9eb" stylesheets="style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.PrincipalController">
+   <children>
+      <MFXButton fx:id="botonremove" layoutX="133.0" layoutY="341.0" mnemonicParsing="false" onAction="#eliminarPersona" text="Eliminar" />
+      <MFXButton fx:id="botonadd" layoutX="46.0" layoutY="341.0" mnemonicParsing="false" onAction="#addPersona" text="Añadir" />
+      <MFXButton fx:id="botonupdate" layoutX="217.0" layoutY="341.0" mnemonicParsing="false" onAction="#updatePersona" text="Actualizar" />
+      <MFXTextField fx:id="nombre" alignment="CENTER" layoutX="339.0" layoutY="106.0" prefHeight="25.0" prefWidth="200.0" promptText="Nombre" />
+      <MFXTextField fx:id="edad" alignment="CENTER" layoutX="339.0" layoutY="188.0" prefHeight="25.0" prefWidth="200.0" promptText="Edad" />
+      <MFXTextField fx:id="DNI" alignment="CENTER" layoutX="339.0" layoutY="248.0" prefHeight="25.0" prefWidth="200.0" promptText="DNI" />
+      <TableView fx:id="tablapersonas" layoutX="14.0" layoutY="98.0" prefHeight="203.0" prefWidth="318.0">
+        <columns>
+          <TableColumn fx:id="columna1" prefWidth="103.59999084472656" text="Nombre"/>
+          <TableColumn fx:id="columna2" prefWidth="49.40000915527344" text="Edad" />
+           <TableColumn fx:id="columna3" prefWidth="53.79998779296875" text="DNI" />
+           <TableColumn fx:id="columna4" prefWidth="113.79998779296875" text="Género" />
+        </columns>
+      </TableView>
+      <MFXComboBox fx:id="comboBox" alignment="CENTER" layoutX="339.0" layoutY="313.0" prefHeight="56.0" prefWidth="190.0" promptText="Género" />
+      <MFXToggleButton fx:id="toggleidioma" layoutX="639.0" layoutY="29.0" length="40.0" onAction="#cambioIdioma" prefHeight="49.0" prefWidth="7.0" text="Español" />
+      <ImageView fx:id="botonayuda" fitHeight="49.0" fitWidth="81.0" layoutX="594.0" layoutY="113.0" onMouseClicked="#ayuda" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ayuda.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label" alignment="CENTER" layoutX="169.0" layoutY="29.0" prefHeight="49.0" prefWidth="470.0" text="Gestión de Base de Datos">
+         <font>
+            <Font name="Calibri Bold" size="32.0" />
+         </font>
+      </Label>
+      <MFXToggleButton fx:id="modooscuro" layoutX="14.0" layoutY="29.0" length="40.0" onAction="#modoOscuro" prefHeight="49.0" prefWidth="7.0" text="Modo Oscuro" />
+   </children>
+</AnchorPane>

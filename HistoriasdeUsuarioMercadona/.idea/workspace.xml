@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a21b659a-b559-4bba-9029-d45e72660a53" name="Changes" comment="xml.pom" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="249ZZxwwNNsbOUqs590IqH4fRDX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Gherkin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mercadona" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Javier y Paula\Desktop\DAM\Programación\HistoriasdeUsuarioMercadona\src\test\resources\cliente" />
+      <recent name="C:\Users\Javier y Paula\Desktop\DAM\Programación\HistoriasdeUsuarioMercadona\src\test\resources\admin" />
+      <recent name="C:\Users\Javier y Paula\Desktop\DAM\Programación\HistoriasdeUsuarioMercadona\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Scenario: un administrador modifica un producto existente correctamente" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/cuentaadmin.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.cli.Main" />
+      <module name="HistoriasdeUsuarioMercadona" />
+      <option name="NAME_FILTER" value="^un administrador modifica un producto existente correctamente$" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^un administrador modifica un producto existente correctamente$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: un administrador modifica un producto existente correctamente" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: un administrador modifica un producto existente correctamente" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a21b659a-b559-4bba-9029-d45e72660a53" name="Changes" comment="" />
+      <created>1643044823129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643044823129</updated>
+      <workItem from="1643044823742" duration="616000" />
+      <workItem from="1643045982285" duration="1187000" />
+      <workItem from="1643131104179" duration="3480000" />
+      <workItem from="1643474823671" duration="78000" />
+      <workItem from="1643567319468" duration="1507000" />
+      <workItem from="1643736732436" duration="34000" />
+    </task>
+    <task id="LOCAL-00001" summary="xml.pom">
+      <created>1643220809419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643220809419</updated>
+    </task>
+    <task id="LOCAL-00002" summary="xml.pom">
+      <created>1643220873245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643220873245</updated>
+    </task>
+    <task id="LOCAL-00003" summary="xml.pom">
+      <created>1643568805145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643568805146</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="xml.pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml.pom" />
+  </component>
+</project>
